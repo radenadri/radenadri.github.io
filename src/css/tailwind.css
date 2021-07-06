@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Helvetica Now Light;
+    font-weight: 300;
+    src: url(../fonts/HelveticaNowDisplay-Light.ttf);
+  }
+
+  @font-face {
+    font-family: Helvetica Now Regular;
+    font-weight: 400;
+    src: url(../fonts/HelveticaNowDisplay-Regular.ttf);
+  }
+
+  html {
+    @apply h-full;
+  }
+
+  body {    
+    @apply min-h-full;
+    
+    @apply text-gray-900;
+    @apply text-lg;
+  }
+}
