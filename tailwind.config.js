@@ -37,6 +37,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Helvetica Now Light', ...defaultTheme.fontFamily.sans],
+        normal: ['Helvetica Now Regular', ...defaultTheme.fontFamily.sans],
       },
     },
   },

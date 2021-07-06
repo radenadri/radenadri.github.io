@@ -5,9 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>👨‍💻 Adriana Eka Prayudha</title>
   
-
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Adriana Eka Prayudha">
+  <meta name="description" content="My current latest portfolio">
 
   <meta property="og:title" content="">
   <meta property="og:type" content="">
@@ -24,17 +23,142 @@
   <meta name="theme-color" content="#fafafa">
 
 </head>
-<body class="flex flex-col h-full">
-  
+<body class="flex flex-col p-4 s-tablet:p-8 m-tablet:p-12 l-laptop:p-0 l-laptop:max-w-screen-s-laptop l-laptop:mx-auto l-laptop:py-12">
+
+  <!-- Header -->
+  <header id="header" class="flex flex-col-reverse space-y-4 space-y-reverse s-tablet:justify-between s-tablet:flex-row">
+    <ul class="inline-flex space-x-4 list-none">
+      <li>
+        <a class="hover:underline" href="/">Work</a>
+      </li>
+      <li>
+        <a class="hover:underline" href="/about.html">About</a>
+      </li>
+      <li>
+        <a class="hover:underline" href="mailto:radenadriep@gmail.com">Say Hello 👋</a>
+      </li>
+    </ul>
+    <h1 class="text-2xl">Adriana Eka Prayudha</h1>
+  </header>
+
   <!-- Main -->
   <main>
-    <h1 class="text-4xl">Hello from tailwind</h1>
+    
+    <!-- Jumbotron -->
+    <div id="jumbotron" class="min-h-[400px] flex items-center">
+      <h1 class="max-w-lg text-2xl">
+        Web Developer based in Bandung, Indonesia. I have a great motivation to build something interesting for the web.
+      </h1>
+    </div>
+
+    <!-- Selected Projects -->
+    <div id="projects">
+      <h1 class="text-2xl font-normal text-gray-500">Selected Projects</h1>
+      <div class="grid grid-cols-1 gap-6 mt-4 s-tablet:gap-10 s-tablet:grid-cols-2">
+        <a href="https://friends.co.id" target="_blank">
+          <div class="aspect-w-16 aspect-h-9">
+            <img class="object-cover" src="./dist/images/friends-ready.jpg" alt="kickfest-img" />
+          </div>
+          <div class="mt-4">
+            <h5 class="font-normal">Friends Entertainment</h5>
+            <p class="text-gray-500">Laravel, Bootstrap 5, Digital Ocean</p>
+          </div>
+        </a>
+        <a href="https://bjbkickfest.com" target="_blank">
+          <div class="aspect-w-16 aspect-h-9">
+            <img class="object-cover" src="./dist/images/kickfest-ready.jpg" alt="kickfest-img" />
+          </div>
+          <div class="mt-4">
+            <h5 class="font-normal">Kickfest 2021</h5>
+            <p class="text-gray-500">Laravel, Tailwind, Digital Ocean</p>
+          </div>
+        </a>
+        <a href="https://bandungsneakerseason.com" target="_blank">
+          <div class="aspect-w-16 aspect-h-9">
+            <img class="object-cover" src="./dist/images/bss-ready.jpg" alt="bss-img" />
+          </div>
+          <div class="mt-4">
+            <h5 class="font-normal">Bandung Sneakers Season</h5>
+            <p class="text-gray-500">Laravel, Tailwind, Digital Ocean</p>
+          </div>
+        </a>
+        <a href="https://sscorner.id" target="_blank">
+          <div class="aspect-w-16 aspect-h-9">
+            <img class="object-cover" src="./dist/images/sscorner-ready.jpg" alt="sscorner-img" />
+          </div>
+          <div class="mt-4">
+            <h5 class="font-normal">SSCorner</h5>
+            <p class="text-gray-500">Laravel, Bootstrap 4, Digital Ocean</p>
+          </div>
+        </a>
+        <a href="https://yogyagroup.com" target="_blank">
+          <div class="aspect-w-16 aspect-h-9">
+            <img class="object-cover" src="./dist/images/yogyagroup-ready.jpg" alt="yogyagroup-img" />
+          </div>
+          <div class="mt-4">
+            <h5 class="font-normal">Yogya Group</h5>
+            <p class="text-gray-500">Laravel, Bootstrap 4, Digital Ocean</p>
+          </div>
+        </a>
+        <a href="https://atappromotions.id" target="_blank">
+          <div class="aspect-w-16 aspect-h-9">
+            <img class="object-cover" src="./dist/images/atap-ready.jpg" alt="atap-img" />
+          </div>
+          <div class="mt-4">
+            <h5 class="font-normal">Atap Promotions</h5>
+            <p class="text-gray-500">Wordpress, Bootstrap 4, Digital Ocean</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    
   </main>
 
   <!-- Footer -->
-  <footer class="mt-auto bg-[#141414]" aria-labelledby="footerHeading">
-    <h1>Footer</h1>
+  <footer id="footer" class="flex flex-col-reverse py-8 mt-auto space-y-3 space-y-reverse s-tablet:items-center" aria-labelledby="footerHeading">
+    <h5 class="text-lg">© 2021 → radenadri.github.io</h5>
+    <ul class="flex flex-col space-y-2 s-tablet:flex-row s-tablet:space-y-0 s-tablet:space-x-4">
+      <li>
+        <a class="hover:underline" href="https://instagram.com/radenadri">
+          Instagram
+        </a>
+      </li>
+      <li>
+        <a class="hover:underline" href="https://www.linkedin.com/in/radenadri/">
+          LinkedIn
+        </a>
+      </li>
+      <li>
+        <a class="hover:underline" href="https://github.com/radenadri">
+          Github
+        </a>
+      </li>
+      <li>
+        <a class="hover:underline" href="https://codepen.io/radenadri">
+          Codepen
+        </a>
+      </li>
+      <li>
+        <a class="hover:underline" href="https://dribbble.com/radenadri">
+          Dribbble
+        </a>
+      </li>
+    </ul>
   </footer>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    window.onload = () => {
+      let sr = ScrollReveal();
 
+      sr.reveal('#header');
+      sr.reveal('#jumbotron', {
+        delay: 1000
+      });
+      sr.reveal('#projects', {
+        delay: 2000
+      });
+      sr.reveal('#footer');
+    }
+  </script>
 </body>
 </html>
